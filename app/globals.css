@@ -1,26 +1,128 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Brand — derived from the Cheroot logo (blue compass + location pin) */
+  --color-brand-900: #07235a;
+  --color-brand-800: #0b3487;
+  --color-brand-700: #1250c4;
+  --color-brand-600: #1a62da;
+  --color-brand-500: #2f86ef;
+  --color-brand-400: #5aa4f5;
+  --color-brand-300: #93c4fa;
+  --color-brand-200: #c9e2fd;
+  --color-brand-100: #dcebfe;
+  --color-brand-50: #eff6ff;
+
+  /* Surfaces */
+  --color-surface: #ffffff;
+  --color-surface-soft: #f4f8fe;
+
+  /* Text — token plan: text-900 / text-600 */
+  --color-ink-900: #0b1b33;
+  --color-ink-700: #2b3c5a;
+  --color-ink-600: #566784;
+
+  /* Border — token plan: soft blue-gray */
+  --color-line: #d9e4f3;
+  --color-line-strong: #c2d3ec;
+
+  /* Feedback + highlight */
+  --color-success: #158f5b;
+  --color-accent: #f59e0b;
+
+  --font-display: var(--font-plus-jakarta), "Segoe UI", ui-sans-serif, sans-serif;
+  --font-sans: var(--font-inter), "Segoe UI", ui-sans-serif, system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-ink-900);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  /* Scroll reveal (Phase 4 interactions, kept restrained) */
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition:
+      opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Horizontal snap scrollers (mobile-first) */
+  .snap-row {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .snap-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Very subtle floating motion for hero ornaments */
+  .float-slow {
+    animation: cheroot-float 7s ease-in-out infinite;
+  }
+  .float-slower {
+    animation: cheroot-float 10s ease-in-out infinite;
+    animation-delay: -3s;
+  }
+
+  .glass {
+    background: color-mix(in srgb, white 82%, transparent);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+}
+
+@keyframes cheroot-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .float-slow,
+  .float-slower {
+    animation: none;
+  }
 }

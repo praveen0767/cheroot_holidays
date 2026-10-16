@@ -1,0 +1,44 @@
+%% Cheroot Holidays — Agent pipeline
+%% Methodology: each agent owns one concern; nothing ships without the next agent's pass.
+
+flowchart TD
+    DS["DESIGN SYSTEM<br/>tokens · type scale · spacing<br/>breakpoints 320 / 768 / 1024 / 1280"] --> B
+
+    subgraph Foundation [Foundation]
+        DS
+    end
+
+    B["BRAND<br/>logo motifs · voice · palette<br/>compass / pin / orbit language"] --> UI
+
+    UI["UI BUILDER<br/>Button · Badge · Container<br/>SectionHeading · Reveal · cards"] --> P
+
+    subgraph Build [Composable build]
+        UI
+    end
+
+    P["PAGE AGENT<br/>composes Sections from data<br/>destinations · packages · services"] --> Q
+
+    Q["QA / VISUAL<br/>routes · forms · image alt<br/>a11y · contrast · perf"] --> R
+
+    R["RESPONSIVE REVIEW<br/>320 · 375 · 390 · 768 · 1024<br/>1280 · 1440 — overflow · CLS<br/>tap targets · reduced motion"] --> DONE["Approved iteration"]
+
+    subgraph Review [Review loop]
+        Q
+        R
+    end
+
+    DONE -.->|findings re-enter| P
+
+    %% Phase order
+    subgraph Phases [Phase order]
+        direction LR
+        PH1["Phase 1<br/>Foundation"] --> PH2["Phase 2<br/>Home"] --> PH3["Phase 3<br/>Core pages"] --> PH4["Phase 4<br/>Interaction"] --> PH5["Phase 5<br/>QA"]
+    end
+
+    style DS fill:#07235a,color:#ffffff,stroke:none
+    style B fill:#1250c4,color:#ffffff,stroke:none
+    style UI fill:#2f86ef,color:#ffffff,stroke:none
+    style P fill:#1a62da,color:#ffffff,stroke:none
+    style Q fill:#158f5b,color:#ffffff,stroke:none
+    style R fill:#f59e0b,color:#0b1b33,stroke:none
+    style DONE fill:#0b1b33,color:#ffffff,stroke:none
