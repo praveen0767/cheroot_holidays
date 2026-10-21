@@ -1,3 +1,8 @@
+import {
+  getPackageCountForDestination,
+  getMinPriceForDestination,
+} from "./packages";
+
 export type DestinationCategory = "international" | "domestic" | "honeymoon";
 
 export type Destination = {
@@ -6,21 +11,33 @@ export type Destination = {
   country: string;
   category: DestinationCategory;
   tagline: string;
-  packageCount: number;
-  fromPrice: number;
+  /**
+   * Package count derived from the canonical package data.
+   */
+  packageCount?: number;
+  /**
+   * Minimum starting price derived from canonical package data.
+   * Undefined when no packages have a confirmed price.
+   */
+  fromPrice?: number;
   image: string;
 };
 
-export const destinations: Destination[] = [
+/**
+ * ⚠️ DATA PROVENANCE NOTICE
+ *
+ * Destination records below are initial curated destinations.
+ * packageCount and fromPrice are dynamically derived from `data/packages.ts`
+ * to ensure numbers never contradict the actual package catalogue.
+ */
+const rawDestinations: Omit<Destination, "packageCount" | "fromPrice">[] = [
   {
     slug: "goa",
     name: "Goa",
     country: "India",
     category: "domestic",
     tagline: "Beaches, old forts and slow coastal evenings",
-    packageCount: 14,
-    fromPrice: 18999,
-    image: "/destinations/goa.svg",
+    image: "/destinations/goa.jpg",
   },
   {
     slug: "dubai",
@@ -28,9 +45,7 @@ export const destinations: Destination[] = [
     country: "United Arab Emirates",
     category: "international",
     tagline: "Skyscrapers, desert safaris and skyline nights",
-    packageCount: 11,
-    fromPrice: 54999,
-    image: "/destinations/dubai.svg",
+    image: "/packages/imported/2jfz2vj06sk.webp",
   },
   {
     slug: "bali",
@@ -38,9 +53,7 @@ export const destinations: Destination[] = [
     country: "Indonesia",
     category: "international",
     tagline: "Rice terraces, clifftop temples and ocean air",
-    packageCount: 9,
-    fromPrice: 62999,
-    image: "/destinations/bali.svg",
+    image: "/destinations/bali.jpg",
   },
   {
     slug: "kashmir",
@@ -48,9 +61,7 @@ export const destinations: Destination[] = [
     country: "India",
     category: "domestic",
     tagline: "Snow valleys, shikaras and pine-lined trails",
-    packageCount: 8,
-    fromPrice: 34999,
-    image: "/destinations/kashmir.svg",
+    image: "/destinations/kashmir.jpg",
   },
   {
     slug: "maldives",
@@ -58,9 +69,7 @@ export const destinations: Destination[] = [
     country: "Maldives",
     category: "honeymoon",
     tagline: "Overwater calm and turquoise horizons",
-    packageCount: 6,
-    fromPrice: 98999,
-    image: "/destinations/maldives.svg",
+    image: "/packages/imported/e9g1rz-0rlu.webp",
   },
   {
     slug: "kerala",
@@ -68,11 +77,15 @@ export const destinations: Destination[] = [
     country: "India",
     category: "domestic",
     tagline: "Backwaters, hills and slow spice-country days",
-    packageCount: 12,
-    fromPrice: 27999,
-    image: "/destinations/kerala.svg",
+    image: "/packages/imported/water-boat-kerala-870x555-1.webp",
   },
 ];
+
+export const destinations: Destination[] = rawDestinations.map((d) => ({
+  ...d,
+  packageCount: getPackageCountForDestination(d.slug),
+  fromPrice: getMinPriceForDestination(d.slug),
+}));
 
 /** Home page order: Goa, Dubai, Bali, Kashmir (per home wireframe). */
 export const trendingDestinations = [
@@ -81,3 +94,4 @@ export const trendingDestinations = [
   destinations[2],
   destinations[3],
 ];
+

@@ -15,10 +15,26 @@ const CHROME =
   process.env.CHROME_PATH ??
   "C:/Program Files/Google/Chrome/Application/chrome.exe";
 
-const ROUTES = ["/", "/destinations", "/destinations/goa", "/packages/bali-serenity-honeymoon", "/services", "/about", "/contact"];
+const ROUTES = [
+  "/",
+  "/packages",
+  "/packages/bali-serenity-honeymoon",
+  "/packages/dubai-deluxe-escape",
+  "/destinations",
+  "/destinations/goa",
+  "/destinations/kerala",
+  "/services",
+  "/about",
+  "/contact",
+];
 const VIEWPORTS = [
-  { name: "mobile", width: 390, height: 844 },
-  { name: "desktop", width: 1440, height: 900 },
+  { name: "320px", width: 320, height: 600 },
+  { name: "375px", width: 375, height: 667 },
+  { name: "390px", width: 390, height: 844 },
+  { name: "768px", width: 768, height: 1024 },
+  { name: "1024px", width: 1024, height: 768 },
+  { name: "1280px", width: 1280, height: 800 },
+  { name: "1440px", width: 1440, height: 900 },
 ];
 
 mkdirSync(".screens", { recursive: true });
@@ -41,7 +57,10 @@ for (const viewport of VIEWPORTS) {
       if (r.status() >= 400) bad.push(`${r.status()} ${r.url().replace(BASE, "")}`);
     });
     page.on("console", (m) => {
-      if (m.type() === "error") bad.push(`console: ${m.text().slice(0, 140)}`);
+      const text = m.text();
+      // Ignore Next.js 16 development prefetch notices
+      if (text.includes("Next.js encountered URL data")) return;
+      if (m.type() === "error") bad.push(`console: ${text.slice(0, 140)}`);
     });
 
     // Pass A — motion on: scroll everything into view

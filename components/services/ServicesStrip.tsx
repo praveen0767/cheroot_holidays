@@ -13,7 +13,7 @@ export default function ServicesStrip() {
         className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(47,134,239,0.4),transparent_55%)]"
       />
 
-      <Container className="relative">
+      <Container size="wide" className="relative">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <SectionHeading
             tone="dark"

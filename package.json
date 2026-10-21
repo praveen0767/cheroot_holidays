@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "validate:translations": "node scripts/validate-translations.mjs"
   },
   "dependencies": {
     "next": "16.4.0",
@@ -22,6 +24,8 @@
     "eslint-config-next": "16.4.0",
     "puppeteer-core": "^25.12.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
   }
 }

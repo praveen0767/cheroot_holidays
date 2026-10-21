@@ -45,8 +45,14 @@ export default function DestinationCard({
             <p className="text-sm text-brand-100/90">{destination.tagline}</p>
             <div className="flex items-center justify-between text-sm">
               <span className="text-white/90">
-                From{" "}
-                <strong className="font-bold">{formatINR(destination.fromPrice)}</strong>
+                {typeof destination.fromPrice === "number" && destination.fromPrice > 0 ? (
+                  <>
+                    From{" "}
+                    <strong className="font-bold">{formatINR(destination.fromPrice)}</strong>
+                  </>
+                ) : (
+                  <span className="font-medium">Enquire for quote</span>
+                )}
               </span>
               <span className="flex items-center gap-1 font-semibold text-white">
                 Explore

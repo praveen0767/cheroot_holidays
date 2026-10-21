@@ -1,0 +1,1428 @@
+[
+  {
+    "id": "in-delhi-new",
+    "name": "New Delhi",
+    "displayName": "New Delhi, Delhi, India",
+    "placeType": "metro",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Delhi",
+      "NDLS",
+      "Central Delhi"
+    ],
+    "latitude": 28.6139,
+    "longitude": 77.209,
+    "region": "North",
+    "searchKeywords": [
+      "capital",
+      "rashtrapati bhavan",
+      "india gate",
+      "connaught place",
+      "delhi"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "புது தில்லி",
+    "displayNameTamil": "புது தில்லி, தில்லி, இந்தியா",
+    "aliasesTamil": [
+      "தில்லி",
+      "புது டெல்லி",
+      "டெல்லி"
+    ]
+  },
+  {
+    "id": "in-delhi-nct",
+    "name": "Delhi",
+    "displayName": "Delhi (NCT), India",
+    "placeType": "union_territory",
+    "state": "Delhi",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "National Capital Territory",
+      "Dilli"
+    ],
+    "latitude": 28.7041,
+    "longitude": 77.1025,
+    "region": "North",
+    "searchKeywords": [
+      "nct",
+      "red fort",
+      "qutub minar",
+      "chandni chowk",
+      "delhi"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "தில்லி",
+    "displayNameTamil": "தில்லி (என்சிடி), இந்தியா",
+    "aliasesTamil": [
+      "டெல்லி",
+      "தேசிய தலைநகர் பகுதி"
+    ]
+  },
+  {
+    "id": "in-delhi-ncr",
+    "name": "Delhi NCR",
+    "displayName": "Delhi NCR (National Capital Region), India",
+    "placeType": "district",
+    "state": "Delhi",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "NCR",
+      "Greater Delhi",
+      "Gurgaon",
+      "Noida",
+      "Faridabad",
+      "Ghaziabad"
+    ],
+    "latitude": 28.5355,
+    "longitude": 77.391,
+    "region": "North",
+    "searchKeywords": [
+      "ncr",
+      "gurugram",
+      "noida",
+      "cyber hub"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "nameTamil": "தில்லி என்சிஆர்",
+    "displayNameTamil": "தில்லி என்சிஆர், இந்தியா",
+    "aliasesTamil": [
+      "குருகிராம்",
+      "நொய்டா",
+      "ஃபரிதாபாத்"
+    ]
+  },
+  {
+    "id": "in-mumbai",
+    "name": "Mumbai",
+    "displayName": "Mumbai, Maharashtra, India",
+    "placeType": "metro",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Bombay",
+      "BOM",
+      "Maximum City"
+    ],
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "region": "West",
+    "searchKeywords": [
+      "gateway of india",
+      "marine drive",
+      "colaba",
+      "bandra",
+      "juhu"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "மும்பை",
+    "displayNameTamil": "மும்பை, மகாராஷ்டிரா, இந்தியா",
+    "aliasesTamil": [
+      "பம்பாய்",
+      "பாம்பே"
+    ]
+  },
+  {
+    "id": "in-bengaluru",
+    "name": "Bengaluru",
+    "displayName": "Bengaluru, Karnataka, India",
+    "placeType": "metro",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Bangalore",
+      "BLR",
+      "Silicon Valley of India"
+    ],
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "region": "South",
+    "searchKeywords": [
+      "garden city",
+      "cubbon park",
+      "indiranagar",
+      "koramangala",
+      "whitefield"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "பெங்களூரு",
+    "displayNameTamil": "பெங்களூரு, கர்நாடகா, இந்தியா",
+    "aliasesTamil": [
+      "பெங்களூர்",
+      "சிலிகான் வேலி"
+    ]
+  },
+  {
+    "id": "in-chennai",
+    "name": "Chennai",
+    "displayName": "Chennai, Tamil Nadu, India",
+    "placeType": "metro",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Madras",
+      "MAA",
+      "Gateway of South India"
+    ],
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "region": "South",
+    "searchKeywords": [
+      "marina beach",
+      "mylapore",
+      "t nagar",
+      "adyar",
+      "omr",
+      "cheroot hub"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "சென்னை",
+    "displayNameTamil": "சென்னை, தமிழ்நாடு, இந்தியா",
+    "aliasesTamil": [
+      "மெட்ராஸ்",
+      "சென்னை நகரம்",
+      "தென்னிந்தியாவின் நுழைவாயில்"
+    ]
+  },
+  {
+    "id": "in-kolkata",
+    "name": "Kolkata",
+    "displayName": "Kolkata, West Bengal, India",
+    "placeType": "metro",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Calcutta",
+      "CCU",
+      "City of Joy"
+    ],
+    "latitude": 22.5726,
+    "longitude": 88.3639,
+    "region": "East",
+    "searchKeywords": [
+      "howrah bridge",
+      "victoria memorial",
+      "park street",
+      "dakshineswar"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "கொல்கத்தா",
+    "displayNameTamil": "கொல்கத்தா, மேற்கு வங்காளம், இந்தியா",
+    "aliasesTamil": [
+      "கல்கத்தா"
+    ]
+  },
+  {
+    "id": "in-hyderabad",
+    "name": "Hyderabad",
+    "displayName": "Hyderabad, Telangana, India",
+    "placeType": "metro",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "HYD",
+      "Cyberabad",
+      "City of Pearls"
+    ],
+    "latitude": 17.385,
+    "longitude": 78.4867,
+    "region": "South",
+    "searchKeywords": [
+      "charminar",
+      "golconda",
+      "hitec city",
+      "hussain sagar",
+      "biryani"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "ஹைதராபாத்",
+    "displayNameTamil": "ஹைதராபாத், தெலுங்கானா, இந்தியா",
+    "aliasesTamil": [
+      "சைபராபாத்",
+      "முத்து நகரம்"
+    ]
+  },
+  {
+    "id": "in-pune",
+    "name": "Pune",
+    "displayName": "Pune, Maharashtra, India",
+    "placeType": "city",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Poona",
+      "PNQ",
+      "Oxford of the East"
+    ],
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "region": "West",
+    "searchKeywords": [
+      "shaniwar wada",
+      "sinhagad",
+      "koregaon park",
+      "lonavala gateway"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "புனே",
+    "displayNameTamil": "புனே, மகாராஷ்டிரா, இந்தியா",
+    "aliasesTamil": [
+      "பூனா"
+    ]
+  },
+  {
+    "id": "in-ahmedabad",
+    "name": "Ahmedabad",
+    "displayName": "Ahmedabad, Gujarat, India",
+    "placeType": "city",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Amdavad",
+      "AMD"
+    ],
+    "latitude": 23.0225,
+    "longitude": 72.5714,
+    "region": "West",
+    "searchKeywords": [
+      "sabarmati ashram",
+      "kankaria",
+      "heritage city",
+      "gift city"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "nameTamil": "அகமதாபாத்",
+    "displayNameTamil": "அகமதாபாத், குஜராத், இந்தியா",
+    "aliasesTamil": [
+      "அம்தாவாத்"
+    ]
+  },
+  {
+    "id": "in-coimbatore",
+    "name": "Coimbatore",
+    "displayName": "Coimbatore, Tamil Nadu, India",
+    "placeType": "city",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Kovai",
+      "CJB",
+      "Manchester of South India"
+    ],
+    "latitude": 11.0168,
+    "longitude": 76.9558,
+    "region": "South",
+    "searchKeywords": [
+      "ooty gateway",
+      "marudhamalai",
+      "cheroot office"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "கோயம்புத்தூர்",
+    "displayNameTamil": "கோயம்புத்தூர், தமிழ்நாடு, இந்தியா",
+    "aliasesTamil": [
+      "கோவை",
+      "தென்னிந்தியாவின் மான்செஸ்டர்"
+    ]
+  },
+  {
+    "id": "in-erode",
+    "name": "Erode",
+    "displayName": "Erode, Tamil Nadu, India",
+    "placeType": "city",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Turmeric City",
+      "ED"
+    ],
+    "latitude": 11.341,
+    "longitude": 77.7172,
+    "region": "South",
+    "searchKeywords": [
+      "bhavani",
+      "cauvery",
+      "cheroot office"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "nameTamil": "ஈரோடு",
+    "displayNameTamil": "ஈரோடு, தமிழ்நாடு, இந்தியா",
+    "aliasesTamil": [
+      "மஞ்சள் மாநகரம்"
+    ]
+  },
+  {
+    "id": "in-tirupur",
+    "name": "Tirupur",
+    "displayName": "Tirupur, Tamil Nadu, India",
+    "placeType": "city",
+    "city": "Tirupur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Tiruppur",
+      "Knitwear Capital"
+    ],
+    "latitude": 11.1085,
+    "longitude": 77.3411,
+    "region": "South",
+    "searchKeywords": [
+      "textile hub",
+      "cheroot office"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "nameTamil": "திருப்பூர்",
+    "displayNameTamil": "திருப்பூர், தமிழ்நாடு, இந்தியா",
+    "aliasesTamil": [
+      "பின்னலாடை நகரம்"
+    ]
+  },
+  {
+    "id": "in-goa",
+    "name": "Goa",
+    "displayName": "Goa, India",
+    "placeType": "destination",
+    "state": "Goa",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "North Goa",
+      "South Goa",
+      "Panaji",
+      "Calangute",
+      "Anjuna",
+      "Palolem",
+      "GOI"
+    ],
+    "latitude": 15.2993,
+    "longitude": 74.124,
+    "region": "West",
+    "searchKeywords": [
+      "beaches",
+      "fort aguada",
+      "dudhsagar",
+      "sunset",
+      "coastal getaway"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "associatedDestinationSlug": "goa",
+    "nameTamil": "கோவா",
+    "displayNameTamil": "கோவா, இந்தியா",
+    "aliasesTamil": [
+      "வடக்கு கோவா",
+      "தெற்கு கோவா",
+      "பனாஜி"
+    ]
+  },
+  {
+    "id": "in-kashmir",
+    "name": "Kashmir",
+    "displayName": "Kashmir Valley, Jammu & Kashmir, India",
+    "placeType": "destination",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Srinagar",
+      "Gulmarg",
+      "Pahalgam",
+      "Sonamarg",
+      "Dal Lake",
+      "SXR"
+    ],
+    "latitude": 34.0837,
+    "longitude": 74.7973,
+    "region": "North",
+    "searchKeywords": [
+      "shikara",
+      "gondola",
+      "snow",
+      "himalayas",
+      "valleys",
+      "tulip garden"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "associatedDestinationSlug": "kashmir",
+    "nameTamil": "காஷ்மீர்",
+    "displayNameTamil": "காஷ்மீர் பள்ளத்தாக்கு, ஜம்மு & காஷ்மீர், இந்தியா",
+    "aliasesTamil": [
+      "ஸ்ரீநகர்",
+      "குல்மார்க்",
+      "பஹல்காம்",
+      "தால் ஏரி"
+    ]
+  },
+  {
+    "id": "in-kerala",
+    "name": "Kerala",
+    "displayName": "Kerala, India",
+    "placeType": "destination",
+    "state": "Kerala",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "God's Own Country",
+      "Munnar",
+      "Alleppey",
+      "Alappuzha",
+      "Kochi",
+      "Cochin",
+      "Wayanad"
+    ],
+    "latitude": 9.9312,
+    "longitude": 76.2673,
+    "region": "South",
+    "searchKeywords": [
+      "backwaters",
+      "houseboat",
+      "tea gardens",
+      "ayurveda",
+      "munnar",
+      "alleppey"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "associatedDestinationSlug": "kerala",
+    "nameTamil": "கேரளா",
+    "displayNameTamil": "கேரளா, இந்தியா",
+    "aliasesTamil": [
+      "கடவுளின் சொந்த நாடு",
+      "மூணார்",
+      "ஆலப்புழா",
+      "கொச்சி",
+      "வயநாடு"
+    ]
+  },
+  {
+    "id": "in-munnar",
+    "name": "Munnar",
+    "displayName": "Munnar, Idukki, Kerala, India",
+    "placeType": "hill_station",
+    "city": "Munnar",
+    "district": "Idukki",
+    "state": "Kerala",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Tea Hills"
+    ],
+    "latitude": 10.0889,
+    "longitude": 77.0595,
+    "region": "South",
+    "searchKeywords": [
+      "tea plantation",
+      "anamudi",
+      "eravikulam",
+      "misty hills"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "associatedDestinationSlug": "kerala",
+    "nameTamil": "மூணார்",
+    "displayNameTamil": "மூணார், இடுக்கி, கேரளா, இந்தியா",
+    "aliasesTamil": [
+      "தேயிலை தோட்டங்கள்"
+    ]
+  },
+  {
+    "id": "in-alleppey",
+    "name": "Alleppey",
+    "displayName": "Alleppey (Alappuzha), Kerala, India",
+    "placeType": "destination",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Alappuzha",
+      "Venice of the East"
+    ],
+    "latitude": 9.4981,
+    "longitude": 76.3388,
+    "region": "South",
+    "searchKeywords": [
+      "houseboat",
+      "backwaters",
+      "vembanad lake",
+      "canals"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "associatedDestinationSlug": "kerala",
+    "nameTamil": "ஆலப்புழா",
+    "displayNameTamil": "ஆலப்புழா (அலெப்பி), கேரளா, இந்தியா",
+    "aliasesTamil": [
+      "அலெப்பி",
+      "கிழக்கின் வெனிஸ்",
+      "படகு வீடு"
+    ]
+  },
+  {
+    "id": "in-jaipur",
+    "name": "Jaipur",
+    "displayName": "Jaipur, Rajasthan, India",
+    "placeType": "destination",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Pink City",
+      "JAI"
+    ],
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "region": "North",
+    "searchKeywords": [
+      "hawa mahal",
+      "amer fort",
+      "city palace",
+      "rajasthan heritage"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "ஜெய்ப்பூர்",
+    "displayNameTamil": "ஜெய்ப்பூர், ராஜஸ்தான், இந்தியா",
+    "aliasesTamil": [
+      "பிங்க் சிட்டி",
+      "இளஞ்சிவப்பு நகரம்"
+    ]
+  },
+  {
+    "id": "in-udaipur",
+    "name": "Udaipur",
+    "displayName": "Udaipur, Rajasthan, India",
+    "placeType": "destination",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "City of Lakes",
+      "Venice of the East",
+      "UDR"
+    ],
+    "latitude": 24.5854,
+    "longitude": 73.7125,
+    "region": "North",
+    "searchKeywords": [
+      "lake pichola",
+      "city palace",
+      "taj lake palace",
+      "romance"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "உதய்பூர்",
+    "displayNameTamil": "உதய்பூர், ராஜஸ்தான், இந்தியா",
+    "aliasesTamil": [
+      "ஏரிகளின் நகரம்"
+    ]
+  },
+  {
+    "id": "in-agra",
+    "name": "Agra",
+    "displayName": "Agra, Uttar Pradesh, India",
+    "placeType": "destination",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Taj Mahal City",
+      "AGR"
+    ],
+    "latitude": 27.1767,
+    "longitude": 78.0081,
+    "region": "North",
+    "searchKeywords": [
+      "taj mahal",
+      "agra fort",
+      "fatehpur sikri",
+      "mughal heritage"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "ஆக்ரா",
+    "displayNameTamil": "ஆக்ரா, உத்தரப் பிரதேசம், இந்தியா",
+    "aliasesTamil": [
+      "தாஜ்மஹால்"
+    ]
+  },
+  {
+    "id": "in-varanasi",
+    "name": "Varanasi",
+    "displayName": "Varanasi, Uttar Pradesh, India",
+    "placeType": "pilgrimage",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Banaras",
+      "Kashi",
+      "VNS"
+    ],
+    "latitude": 25.3176,
+    "longitude": 82.9739,
+    "region": "North",
+    "searchKeywords": [
+      "ganga ghats",
+      "kashi vishwanath",
+      "ganga aarti",
+      "sarnath"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "வாரணாசி",
+    "displayNameTamil": "வாரணாசி, உத்தரப் பிரதேசம், இந்தியா",
+    "aliasesTamil": [
+      "காசி",
+      "பனாரஸ்"
+    ]
+  },
+  {
+    "id": "in-amritsar",
+    "name": "Amritsar",
+    "displayName": "Amritsar, Punjab, India",
+    "placeType": "pilgrimage",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Golden Temple City",
+      "ATQ"
+    ],
+    "latitude": 31.634,
+    "longitude": 74.8723,
+    "region": "North",
+    "searchKeywords": [
+      "golden temple",
+      "harmandir sahib",
+      "wagah border",
+      "jallianwala bagh"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "அமிர்தசரஸ்",
+    "displayNameTamil": "அமிர்தசரஸ், பஞ்சாப், இந்தியா",
+    "aliasesTamil": [
+      "பொற்கோவில்"
+    ]
+  },
+  {
+    "id": "in-leh-ladakh",
+    "name": "Leh",
+    "displayName": "Leh, Ladakh, India",
+    "placeType": "destination",
+    "city": "Leh",
+    "state": "Ladakh",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Ladakh",
+      "Pangong",
+      "Nubra Valley",
+      "IXL"
+    ],
+    "latitude": 34.1526,
+    "longitude": 77.5771,
+    "region": "North",
+    "searchKeywords": [
+      "high altitude",
+      "pangong tso",
+      "khardung la",
+      "monasteries",
+      "biking"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "லே லடாக்",
+    "displayNameTamil": "லே, லடாக், இந்தியா",
+    "aliasesTamil": [
+      "லடாக்",
+      "பாங்காங் ஏரி",
+      "நுப்ரா பள்ளத்தாக்கு"
+    ]
+  },
+  {
+    "id": "in-manali",
+    "name": "Manali",
+    "displayName": "Manali, Himachal Pradesh, India",
+    "placeType": "hill_station",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Kullu Manali",
+      "Rohtang Pass",
+      "Solang Valley"
+    ],
+    "latitude": 32.2432,
+    "longitude": 77.1892,
+    "region": "North",
+    "searchKeywords": [
+      "snow",
+      "rohtang",
+      "atal tunnel",
+      "solang valley",
+      "honeymoon"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "மணாலி",
+    "displayNameTamil": "மணாலி, இமாச்சலப் பிரதேசம், இந்தியா",
+    "aliasesTamil": [
+      "குல்லு மணாலி",
+      "ரோஹ்தாங் பாஸ்"
+    ]
+  },
+  {
+    "id": "in-shimla",
+    "name": "Shimla",
+    "displayName": "Shimla, Himachal Pradesh, India",
+    "placeType": "hill_station",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Simla",
+      "Queen of Hills"
+    ],
+    "latitude": 31.1048,
+    "longitude": 77.1734,
+    "region": "North",
+    "searchKeywords": [
+      "toy train",
+      "mall road",
+      "kufri",
+      "colonial heritage"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "சிம்லா",
+    "displayNameTamil": "சிம்லா, இமாச்சலப் பிரதேசம், இந்தியா",
+    "aliasesTamil": [
+      "மலைகளின் ராணி"
+    ]
+  },
+  {
+    "id": "in-rishikesh",
+    "name": "Rishikesh",
+    "displayName": "Rishikesh, Uttarakhand, India",
+    "placeType": "pilgrimage",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Yoga Capital of the World",
+      "Haridwar Gateway"
+    ],
+    "latitude": 30.0869,
+    "longitude": 78.2676,
+    "region": "North",
+    "searchKeywords": [
+      "river rafting",
+      "yoga",
+      "laxman jhula",
+      "ganga aarti",
+      "adventure"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "ரிஷிகேஷ்",
+    "displayNameTamil": "ரிஷிகேஷ், உத்தராகண்ட், இந்தியா",
+    "aliasesTamil": [
+      "யோகா தலைநகரம்",
+      "ஹரித்வார்"
+    ]
+  },
+  {
+    "id": "in-ooty",
+    "name": "Ooty",
+    "displayName": "Ooty (Udhagamandalam), Tamil Nadu, India",
+    "placeType": "hill_station",
+    "city": "Udhagamandalam",
+    "district": "Nilgiris",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Udhagamandalam",
+      "Ootacamund",
+      "Nilgiris"
+    ],
+    "latitude": 11.4102,
+    "longitude": 76.695,
+    "region": "South",
+    "searchKeywords": [
+      "nilgiri mountain railway",
+      "botanical garden",
+      "tea estates",
+      "pykara"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "ஊட்டி",
+    "displayNameTamil": "ஊட்டி (உதகமண்டலம்), தமிழ்நாடு, இந்தியா",
+    "aliasesTamil": [
+      "உதகமண்டலம்",
+      "நீலகிரி",
+      "ஊட்டக்கமண்ட்"
+    ]
+  },
+  {
+    "id": "in-kodaikanal",
+    "name": "Kodaikanal",
+    "displayName": "Kodaikanal, Tamil Nadu, India",
+    "placeType": "hill_station",
+    "city": "Kodaikanal",
+    "district": "Dindigul",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Princess of Hill Stations",
+      "Kodai"
+    ],
+    "latitude": 10.2381,
+    "longitude": 77.4892,
+    "region": "South",
+    "searchKeywords": [
+      "kodai lake",
+      "pillar rocks",
+      "coakers walk",
+      "pine forest"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "கொடைக்கானல்",
+    "displayNameTamil": "கொடைக்கானல், தமிழ்நாடு, இந்தியா",
+    "aliasesTamil": [
+      "கோடைக்கானல்",
+      "மலைவாசஸ்தலங்களின் இளவரசி",
+      "கோடை"
+    ]
+  },
+  {
+    "id": "in-coorg",
+    "name": "Coorg",
+    "displayName": "Coorg (Kodagu), Karnataka, India",
+    "placeType": "hill_station",
+    "district": "Kodagu",
+    "state": "Karnataka",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Kodagu",
+      "Scotland of India",
+      "Madikeri"
+    ],
+    "latitude": 12.3375,
+    "longitude": 75.8069,
+    "region": "South",
+    "searchKeywords": [
+      "coffee plantation",
+      "abbey falls",
+      "raja's seat",
+      "tala kaveri"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "கூர்க்",
+    "displayNameTamil": "கூர்க் (குடகு), கர்நாடகா, இந்தியா",
+    "aliasesTamil": [
+      "குடகு",
+      "மடிக்கேரி",
+      "இந்தியாவின் ஸ்காட்லாந்து"
+    ]
+  },
+  {
+    "id": "in-hampi",
+    "name": "Hampi",
+    "displayName": "Hampi, Vijayanagara, Karnataka, India",
+    "placeType": "heritage",
+    "district": "Vijayanagara",
+    "state": "Karnataka",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Vijayanagara Ruins",
+      "UNESCO World Heritage"
+    ],
+    "latitude": 15.335,
+    "longitude": 76.46,
+    "region": "South",
+    "searchKeywords": [
+      "virupaksha temple",
+      "stone chariot",
+      "tungabhadra",
+      "boulder hills"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "ஹம்பி",
+    "displayNameTamil": "ஹம்பி, விஜயநகரா, கர்நாடகா, இந்தியா",
+    "aliasesTamil": [
+      "விஜயநகர இடிபாடுகள்"
+    ]
+  },
+  {
+    "id": "in-rameswaram",
+    "name": "Rameswaram",
+    "displayName": "Rameswaram, Tamil Nadu, India",
+    "placeType": "pilgrimage",
+    "city": "Rameswaram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Ramanathapuram",
+      "Dhanushkodi",
+      "Pamban Island"
+    ],
+    "latitude": 9.2876,
+    "longitude": 79.3129,
+    "region": "South",
+    "searchKeywords": [
+      "pamban bridge",
+      "ramanathaswamy temple",
+      "dhanushkodi ghost town"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "ராமேஸ்வரம்",
+    "displayNameTamil": "ராமேஸ்வரம், தமிழ்நாடு, இந்தியா",
+    "aliasesTamil": [
+      "இராமேஸ்வரம்",
+      "தனுஷ்கோடி",
+      "பாம்பன் பாலம்"
+    ]
+  },
+  {
+    "id": "in-madurai",
+    "name": "Madurai",
+    "displayName": "Madurai, Tamil Nadu, India",
+    "placeType": "city",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Temple City",
+      "Thoonga Nagaram",
+      "IXM"
+    ],
+    "latitude": 9.9252,
+    "longitude": 78.1198,
+    "region": "South",
+    "searchKeywords": [
+      "meenakshi amman temple",
+      "thirumalai nayakkar mahal",
+      "heritage"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "மதுரை",
+    "displayNameTamil": "மதுரை, தமிழ்நாடு, இந்தியா",
+    "aliasesTamil": [
+      "தூங்கா நகரம்",
+      "கோவில் நகரம்",
+      "மீனாட்சி அம்மன் கோவில்"
+    ]
+  },
+  {
+    "id": "in-puducherry",
+    "name": "Puducherry",
+    "displayName": "Puducherry (Pondicherry), India",
+    "placeType": "destination",
+    "state": "Puducherry",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Pondicherry",
+      "Pondy",
+      "French Riviera of the East"
+    ],
+    "latitude": 11.9416,
+    "longitude": 79.8083,
+    "region": "South",
+    "searchKeywords": [
+      "french quarter",
+      "white town",
+      "auroville",
+      "promenade beach"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "புதுச்சேரி",
+    "displayNameTamil": "புதுச்சேரி (பாண்டிச்சேரி), இந்தியா",
+    "aliasesTamil": [
+      "பாண்டிச்சேரி",
+      "பாண்டி"
+    ]
+  },
+  {
+    "id": "in-darjeeling",
+    "name": "Darjeeling",
+    "displayName": "Darjeeling, West Bengal, India",
+    "placeType": "hill_station",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Queen of the Hills",
+      "Himalayan Railway"
+    ],
+    "latitude": 27.041,
+    "longitude": 88.2663,
+    "region": "East",
+    "searchKeywords": [
+      "toy train",
+      "kanchendzonga view",
+      "tiger hill",
+      "tea garden"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "டார்ஜிலிங்",
+    "displayNameTamil": "டார்ஜிலிங், மேற்கு வங்காளம், இந்தியா",
+    "aliasesTamil": [
+      "டார்ஜீலிங்"
+    ]
+  },
+  {
+    "id": "in-gangtok",
+    "name": "Gangtok",
+    "displayName": "Gangtok, Sikkim, India",
+    "placeType": "hill_station",
+    "city": "Gangtok",
+    "state": "Sikkim",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Sikkim Capital"
+    ],
+    "latitude": 27.3389,
+    "longitude": 88.6065,
+    "region": "Northeast",
+    "searchKeywords": [
+      "tsomgo lake",
+      "nathula pass",
+      "rumtek monastery",
+      "himalayas"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "கேங்டாக்",
+    "displayNameTamil": "கேங்டாக், சிக்கிம், இந்தியா",
+    "aliasesTamil": [
+      "காங்டாக்",
+      "சிக்கிம்"
+    ]
+  },
+  {
+    "id": "in-shillong",
+    "name": "Shillong",
+    "displayName": "Shillong, Meghalaya, India",
+    "placeType": "hill_station",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Scotland of the East",
+      "Cherrapunji Gateway"
+    ],
+    "latitude": 25.5788,
+    "longitude": 91.8933,
+    "region": "Northeast",
+    "searchKeywords": [
+      "living root bridges",
+      "cherrapunji",
+      "waterfalls",
+      "meghalaya"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "ஷில்லாங்",
+    "displayNameTamil": "ஷில்லாங், மேகாலயா, இந்தியா",
+    "aliasesTamil": [
+      "சில்லாங்",
+      "கிழக்கின் ஸ்காட்லாந்து",
+      "சிரபுஞ்சி"
+    ]
+  },
+  {
+    "id": "in-guwahati",
+    "name": "Guwahati",
+    "displayName": "Guwahati, Assam, India",
+    "placeType": "city",
+    "city": "Guwahati",
+    "state": "Assam",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Gateway to Northeast",
+      "GAU"
+    ],
+    "latitude": 26.1445,
+    "longitude": 91.7362,
+    "region": "Northeast",
+    "searchKeywords": [
+      "kamakhya temple",
+      "brahmaputra",
+      "kaziranga gateway"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "nameTamil": "குவஹாத்தி",
+    "displayNameTamil": "குவஹாத்தி, அசாம், இந்தியா",
+    "aliasesTamil": [
+      "கௌஹாத்தி"
+    ]
+  },
+  {
+    "id": "in-mysuru",
+    "name": "Mysuru",
+    "displayName": "Mysuru (Mysore), Karnataka, India",
+    "placeType": "heritage",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Mysore",
+      "City of Palaces",
+      "MYQ"
+    ],
+    "latitude": 12.2958,
+    "longitude": 76.6394,
+    "region": "South",
+    "searchKeywords": [
+      "mysore palace",
+      "chamundi hills",
+      "brindavan gardens",
+      "dasara"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "மைசூரு",
+    "displayNameTamil": "மைசூரு (மைசூர்), கர்நாடகா, இந்தியா",
+    "aliasesTamil": [
+      "மைசூர்",
+      "அரண்மனை நகரம்"
+    ]
+  },
+  {
+    "id": "in-tirupati",
+    "name": "Tirupati",
+    "displayName": "Tirupati, Andhra Pradesh, India",
+    "placeType": "pilgrimage",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "countryCode": "IN",
+    "aliases": [
+      "Tirumala",
+      "Balaji",
+      "TIR"
+    ],
+    "latitude": 13.6288,
+    "longitude": 79.4192,
+    "region": "South",
+    "searchKeywords": [
+      "venkateswara temple",
+      "tirumala hills",
+      "spiritual journey"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "nameTamil": "திருப்பதி",
+    "displayNameTamil": "திருப்பதி, ஆந்திரப் பிரதேசம், இந்தியா",
+    "aliasesTamil": [
+      "திருமலை",
+      "பாலாஜி"
+    ]
+  },
+  {
+    "id": "intl-dubai",
+    "name": "Dubai",
+    "displayName": "Dubai, United Arab Emirates",
+    "placeType": "international_destination",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "aliases": [
+      "DXB",
+      "Emirates"
+    ],
+    "latitude": 25.2048,
+    "longitude": 55.2708,
+    "region": "International",
+    "searchKeywords": [
+      "burj khalifa",
+      "desert safari",
+      "dhow cruise",
+      "dubai mall"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "associatedDestinationSlug": "dubai",
+    "nameTamil": "துபாய்",
+    "displayNameTamil": "துபாய், ஐக்கிய அரபு எமிரேட்ஸ்",
+    "aliasesTamil": [
+      "துபாய் மால்",
+      "புர்ஜ் கலீஃபா"
+    ]
+  },
+  {
+    "id": "intl-bali",
+    "name": "Bali",
+    "displayName": "Bali, Indonesia",
+    "placeType": "international_destination",
+    "city": "Denpasar",
+    "state": "Bali",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "aliases": [
+      "DPS",
+      "Ubud",
+      "Seminyak",
+      "Kuta",
+      "Island of Gods"
+    ],
+    "latitude": -8.4095,
+    "longitude": 115.1889,
+    "region": "International",
+    "searchKeywords": [
+      "ubud rice terrace",
+      "uluwatu",
+      "tanah lot",
+      "beaches",
+      "honeymoon villa"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "associatedDestinationSlug": "bali",
+    "nameTamil": "பாலி",
+    "displayNameTamil": "பாலி, இந்தோனேசியா",
+    "aliasesTamil": [
+      "உபுட்",
+      "செமினியாக்"
+    ]
+  },
+  {
+    "id": "intl-maldives",
+    "name": "Maldives",
+    "displayName": "Maldives (Male Atoll)",
+    "placeType": "international_destination",
+    "city": "Male",
+    "country": "Maldives",
+    "countryCode": "MV",
+    "aliases": [
+      "MLE",
+      "Overwater Villa",
+      "Atolls"
+    ],
+    "latitude": 3.2028,
+    "longitude": 73.2207,
+    "region": "International",
+    "searchKeywords": [
+      "overwater bungalow",
+      "snorkeling",
+      "crystal lagoons",
+      "honeymoon paradise"
+    ],
+    "source": "local_curated",
+    "verificationStatus": "verified",
+    "popularDestination": true,
+    "associatedDestinationSlug": "maldives",
+    "nameTamil": "மாலத்தீவு",
+    "displayNameTamil": "மாலத்தீவு (மாலே அட்டோல்)",
+    "aliasesTamil": [
+      "மாலே",
+      "தீவு சொர்க்கம்"
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "notice": "Attribution and licensing registry for externally acquired destination and package imagery for Cheroot Holidays.",
+  "licenseStandard": "Unsplash License — Free for commercial and non-commercial use, no permission or mandatory attribution required, though attribution is provided here for ethical compliance and traceability.",
+  "acquiredAssets": [
+    {
+      "id": "ACQ-BALI-01",
+      "destination": "Bali, Indonesia",
+      "packageSlug": "bali-serenity-honeymoon",
+      "destinationSlug": "bali",
+      "localPaths": [
+        "/packages/bali-serenity-honeymoon.jpg",
+        "/destinations/bali.jpg"
+      ],
+      "source": "Unsplash",
+      "sourcePage": "https://unsplash.com/photos/temple-gate-in-bali-indonesia-537996194471-e657df975ab4",
+      "assetUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+      "creator": "Unsplash Contributor",
+      "license": "Unsplash License (Commercial and Editorial Permitted)",
+      "attributionRequirement": "Credit appreciated; no mandatory fee or NDA",
+      "acquisitionDate": "2026-10-20",
+      "format": "image/jpeg",
+      "dimensions": "1200x800",
+      "verificationStatus": "verified",
+      "matchEvidence": "Iconic traditional Balinese gate with tropical mountain background; verified high-resolution photograph of Bali, Indonesia."
+    },
+    {
+      "id": "ACQ-KASHMIR-01",
+      "destination": "Kashmir, India",
+      "packageSlug": "kashmir-snowline-journey",
+      "destinationSlug": "kashmir",
+      "localPaths": [
+        "/packages/kashmir-snowline-journey.jpg",
+        "/destinations/kashmir.jpg"
+      ],
+      "source": "Unsplash",
+      "sourcePage": "https://unsplash.com/photos/dal-lake-srinagar-kashmir-photo-1595815771614-ade9d652a65d",
+      "assetUrl": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d",
+      "creator": "Unsplash Contributor",
+      "license": "Unsplash License (Commercial and Editorial Permitted)",
+      "attributionRequirement": "Credit appreciated; no mandatory fee or NDA",
+      "acquisitionDate": "2026-10-20",
+      "format": "image/jpeg",
+      "dimensions": "1200x800",
+      "verificationStatus": "verified",
+      "matchEvidence": "Srinagar Dal Lake with traditional Shikara boats and Pir Panjal mountain backdrop; verified high-resolution photograph of Kashmir."
+    },
+    {
+      "id": "ACQ-GOA-01",
+      "destination": "Goa, India",
+      "packageSlug": "goa-coastal-getaway",
+      "destinationSlug": "goa",
+      "localPaths": [
+        "/packages/goa-coastal-getaway.jpg",
+        "/destinations/goa.jpg"
+      ],
+      "source": "Unsplash",
+      "sourcePage": "https://unsplash.com/photos/palm-trees-under-cloudy-sky-during-sunset-photo-1512343879784-a960bf40e7f2",
+      "assetUrl": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2",
+      "creator": "Sumit Sourav",
+      "license": "Unsplash License (Commercial and Editorial Permitted)",
+      "attributionRequirement": "Credit appreciated; no mandatory fee or NDA",
+      "acquisitionDate": "2026-10-20",
+      "format": "image/jpeg",
+      "dimensions": "1200x800",
+      "verificationStatus": "verified",
+      "matchEvidence": "Sunset along Goa coastline with coconut palm trees and Arabian Sea shoreline; verified high-resolution photograph of Goa."
+    }
+  ]
+}
